@@ -1,15 +1,12 @@
 <template>
   <div>
-    <Login/>
+    APP组件
   </div>
 </template>
 
 <script>
-import Login from '@/view/login.vue'
 export default {
-  components:{
-    Login
-  },
+  name:'login',
   data () {
     return {
 
