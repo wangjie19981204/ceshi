@@ -1,14 +1,18 @@
 <template>
   <div>
-    <Login/>
+    <!-- <Login/> -->
+    <Dashboard/>
+    <router-view/>
   </div>
 </template>
 
 <script>
-import Login from '@/view/login.vue'
+// import Login from '@/views/login.vue'
+import Dashboard from './views/dashboard/index.vue'
 export default {
   components:{
-    Login
+    // Login,
+    Dashboard
   },
   data () {
     return {
